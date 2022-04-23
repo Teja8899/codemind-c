@@ -5,9 +5,9 @@ int main()
     scanf("%d",&n);
     for(v=1;v<=n;v++)
     {
-        for(k=1;k<=n;k++)
+        for(k=1;k<=v;k++)
         {
-            printf("%c ",v+64);
+            printf("%d",k);
         }
         printf("
 ");
