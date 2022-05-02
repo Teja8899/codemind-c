@@ -1,16 +1,15 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
-   int x, y, i, gcd;
-   scanf("%d %d", &x, &y);
-
-   for (i = 1; i <= x && i <= y; i++)\n   {
-      if (x % i == 0 && y % i == 0)
-         gcd = i;
-   }
-
-   printf("%d",gcd);
-
-   return 0;
+    int v,k,i,l;
+    scanf("%d %d",&v,&k);
+    for(i=1;i<=v && i<=k;i++)
+    {
+        if(v%i==0 && k%i==0)
+        {
+            l=i;
+        }
+    }
+    printf("%d",l);
+    return 0;
 }
