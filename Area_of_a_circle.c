@@ -2,8 +2,9 @@
 int main()
 {
     int r;
-    float area,p=3.14;
+    float a;
     scanf("%d",&r);
-    area=p*r*r;
-    printf("%.2f",area);
+    a=3.14*r*r;
+    printf("%.2f",a);
+    return 0;
 }
